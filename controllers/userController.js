@@ -23,4 +23,10 @@ module.exports = {
 		data.title='forgot password';
 		res.render('content', data);
 	},
+	sendEmail: (req, res) => {
+		var data={};
+		data.content_view='forgot-password';
+		data.title='forgot password';
+		res.render('content', data);
+	},
 }
